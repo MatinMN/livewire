@@ -10,6 +10,12 @@ By adding `wire:offline` to an element inside a Livewire component, it will be h
 </div>
 ```
 
+Or, using the `.remove` modifier, you can hide an element when the user loses their connection.
+
+```blade
+<div wire:offline.remove >
+```
+
 ## Toggling classes
 
 Adding the `class` modifier allows you to add a class to an element when the user loses their connection. The class will be removed again, once the user is back online:
